@@ -2,21 +2,21 @@
 using namespace std;
 
 int main() {
-    // Declaring variables
-    int a, b, sum;
+    // Declare variables
+    int num1, num2, sum;
 
-    // Taking input
+    // Ask the user for input
     cout << "Enter first number: ";
-    cin >> a;
+    cin >> num1;
 
     cout << "Enter second number: ";
-    cin >> b;
+    cin >> num2;
 
-    // Performing addition
-    sum = a + b;
+    // Calculate sum
+    sum = num1 + num2;
 
-    // Displaying output
-    cout << "Sum of " << a << " and " << b << " is: " << sum << endl;
+    // Display the result
+    cout << "Sum of " << num1 << " and " << num2 << " is " << sum << endl;
 
     return 0;
 }
